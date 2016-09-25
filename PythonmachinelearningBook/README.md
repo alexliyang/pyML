@@ -1,2 +1,2 @@
-# Py-ML
+# Python MachineLearning Programming Book
 MachineLearning in iPython
