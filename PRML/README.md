@@ -1,4 +1,4 @@
 PRML
 ====
 
-PRMLのアルゴリズムをPythonで実装したサンプルプログラム
+sample program of PRML algo implemented with Python
