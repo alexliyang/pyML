@@ -19,7 +19,10 @@ y = np.array(data[1])
 model = linear_model.LinearRegression()
 # Use Ridge Regression
 # model = linear_model.Ridge(alpha=.5)
+
 model.fit(X, y)
+print(model.coef_)
+print(model.intercept_)
 
 px = np.arange(X.min(),X.max(),.01)[:,np.newaxis]
 py = model.predict(px)
