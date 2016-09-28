@@ -1,4 +1,4 @@
-# machine_learning with Octave
+# machine_learning with Python
 
 - machine-learning-ex1 : Linear Regression
 
