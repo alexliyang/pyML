@@ -15,7 +15,10 @@ X = np.array([data[0]]).T
 y = np.array(data[1])
 
 # Model Fitting by sklearn
+# Use Ordinary Least Squares
 model = linear_model.LinearRegression()
+# Use Ridge Regression
+# model = linear_model.Ridge(alpha=.5)
 model.fit(X, y)
 
 px = np.arange(X.min(),X.max(),.01)[:,np.newaxis]
